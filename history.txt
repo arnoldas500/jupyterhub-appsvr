@@ -1,0 +1,327 @@
+    1  sudo add-apt-repository ppa:jonathonf/python-3.6
+    2  sudo apt update
+    3  sudo apt install python3.6
+    4  cd /tmp
+    5  curl -O https://repo.continuum.io/archive/Anaconda3-4.3.1-Linux-x86_64.sh
+    6  bash Anaconda3-4.3.1-Linux-x86_64.sh 
+    7  source ~/.bashrc
+    8  conda list
+    9  conda search "^python$"
+   10  conda create --name my_env python=3.6
+   11  source activate my_env
+   12  python --version
+   13  conda update python
+   14  source deactivate my_env
+   15  git clone https://github.com/minrk/jupyterhub-pydata-2016 /srv/jupyterhub
+   16  sudo git clone https://github.com/minrk/jupyterhub-pydata-2016 /srv/jupyterhub
+   17  cd 
+   18  cd /srv/jupyterhub/
+   19  cd
+   20  cd /srv/jupyterhub/
+   21  conda install -c conda-forge jupyterhub
+   22  conda install notebook
+   23  jupyterhub -h
+   24  more
+   25  more jupyterhub -h
+   26  jupyterhub --version
+   27  configurable-http-proxy
+   28  configurable-http-proxy -h
+   29  conda env create -f environment.yml
+   30  cd
+   31  apt-get install gcc
+   32  sudo apt-get install gcc
+   33  sudo apt-get update
+   34  sudo apt-get install build-essential
+   35  cd /srv/jupyterhub/
+   36  conda env create -f environment.yml
+   37  source activate jupyterhub-tutorial
+   38  cd
+   39  source deactivate jupyterhub-tutorial
+   40  which anaconda
+   41  ls
+   42  cd anaconda3/
+   43  ls
+   44  cd ..
+   45  mv anaconda3/ /opt/anaconda/anaconda3/
+   46  cd /opt/
+   47  mkdir anaconda
+   48  sudo mkdir anaconda
+   49  cd
+   50  mv anaconda3/ /opt/anaconda/anaconda3/
+   51  sudo mv anaconda3/ /opt/anaconda/anaconda3/
+   52  cd /etc/profile
+   53  emacs /etc/profile
+   54  sudo add-apt-repository ppa:kellyk/emacs
+   55  sudo add-apt-repository ppa:kelleyk/emacs
+   56  sudo apt-get update
+   57  sudo apt-get install emacs25
+   58  emacs /etc/profile
+   59  sudo emacs /etc/profile
+   60  cd
+   61  conda update
+   62  which conda
+   63  sudo emacs /etc/profile
+   64  which conda
+   65  conda update
+   66  logout
+   67  which conda
+   68  conda update
+   69  sudo emacs /etc/profile
+   70  logout
+   71  which conda
+   72  sudo emacs /etc/profile
+   73  emacs .bashrc
+   74  sudo emacs /etc/profile
+   75  logout
+   76  which conda
+   77  conda update
+   78  which python
+   79  cd /home/xcite/
+   80  ls
+   81  emacs .bashrc
+   82  emacs .bash
+   83  emacs .profile 
+   84  emacs .bashrc
+   85  ls -a
+   86  emacs .conda/
+   87  python
+   88  which python
+   89  which conda
+   90  conda update conda
+   91  cd /opt/anaconda/anaconda3/bin/
+   92  ls
+   93  cd conda
+   94  emacs conda
+   95  cd
+   96  conda update conda
+   97  logout
+   98  restart
+   99  reboot
+  100  ls
+  101  ls -la
+  102  emacs .bashrc
+  103  cd /srv/jupyterhub/
+  104  ls
+  105  conda config --add channels conda-forge
+  106  ls
+  107  pip install dockerspawner
+  108  which pip
+  109  cd
+  110  cd /opt/anaconda/anaconda3/bin
+  111  ls
+  112  emacs conda
+  113  cd
+  114  logout
+  115  ls
+  116  cd /srv/jupyterhub/
+  117  pip install dockerspawner
+  118  sudo apt-get install python
+  119  pip install dockerspawner
+  120  cd
+  121  /opt/anaconda/anaconda3/bin/
+  122  cd /opt/anaconda/anaconda3/bin/
+  123  ls
+  124  emacs pip
+  125  ls
+  126  emacs conda
+  127  cd
+  128  cd /srv/jupyterhub/
+  129  ls
+  130  pip install dockerspawner
+  131  cd
+  132  cd /opt/anaconda/anaconda3/bin/
+  133  ls
+  134  emacs pip
+  135  cd
+  136  cd /srv/jupyterhub/
+  137  pip install dockerspawner
+  138  docker pull jupyterhub/singleuser
+  139  jupyterhub
+  140  cd
+  141  cd /opt/anaconda/anaconda3/bin
+  142  emacs jupyterhub
+  143  cd
+  144  cd /srv/jupyterhub/
+  145  jupyterhub
+  146  sudo jupyterhub
+  147  which jupyterhub
+  148  sudo chown xcite .
+  149  jupyterhub
+  150  git clone https://github.com/letsencrypt/letsencrypt
+  151  cd letsencrypt/
+  152  ./letsencrypt-auto certonly --standalone -d appsvr.asrc.cestm.albany.edu
+  153  source activate jupyterhub-tutorial
+  154  cd ..
+  155  ls
+  156  jupyterhub --generate-config
+  157  source deactivate jupyterhub-tutorial
+  158  ls
+  159  emacs environment.yml 
+  160  mv environmentOLD.yml 
+  161  mv environment.yml environmentOLD.yml 
+  162  ls
+  163  conda env create -f environment.yml 
+  164  sudo conda env create -f environment.yml 
+  165  conda env create -f environment.yml 
+  166  cd
+  167  mkdir /opt/anaconda/anaconda3/bin/conda-env
+  168  cd /opt/anaconda/anaconda3/bin/conda-env
+  169  cd /opt/anaconda/anaconda3/bin/
+  170  ls
+  171  emacs conda-env
+  172  cd
+  173  cd /srv/jupyterhub/
+  174  ls
+  175  conda env create -f environment.yml 
+  176  emacs environmentOLD.yml 
+  177  mv ./environmentOLD.yml ./environment.yml 
+  178  conda env create -f environment.yml 
+  179  emacs environment.yml 
+  180  sudo emacs environment.yml 
+  181  conda env create -f environment.yml 
+  182  source activate jupyterhubEnv
+  183  jupyterhub --generate-config
+  184  emacs jupyterhub_config.py
+  185  ls
+  186  emacs jupyterhub_config.py-ssl 
+  187  sudo emacs jupyterhub_config.py-ssl 
+  188  sudo emacs jupyterhub_config.py
+  189  jupyterhub
+  190  sudo jupyterhub
+  191  cd /etc/letsencrypt/
+  192  ls
+  193  sudo chmod 777 -R archive/
+  194  sudo chmod 777 -R live/
+  195  cd /srv/jupyterhub/
+  196  jupyterhub
+  197  source deactivate jupyterhubEnv
+  198  jupyterhub
+  199  source activate jupyterhubEnv
+  200  sudo setcap cap_net_bind_service=+ep /opt/anaconda/anaconda3/envs/jupyterhub-tutorial/bin/node 
+  201  jupyterhub
+  202  conda create -n py2 python=2 ipykernel
+  203  conda run -n py2 -- ipython kernel install 
+  204  jupyter kernelspec list
+  205  emacs jupyterhub_config.py
+  206  jupyterhub
+  207  which -a jupyterhub-singleuser
+  208  head -n 1 $(which jupyterhub-singleuser)
+  209  sudo /opt/anaconda/anaconda3/bin/jupyterhub
+  210  sudo /opt/anaconda/anaconda3/bin/npm install -g configurable-http-proxy
+  211  sudo npm install -g configurable-http-proxy
+  212  ls
+  213  ls -a
+  214  ls -la
+  215  source deactivate jupyterhubEnv
+  216  jupyterhub
+  217  source activate jupyterhubEnv
+  218  jupyterhub
+  219  sudo /opt/anaconda/anaconda3/envs/jupyterhub
+  220  which -a jupyterhub-singleuser
+  221  sudo /opt/anaconda/anaconda3/envs/jupyterhubEnv/bin/jupyterhub
+  222  sudo apt-get update
+  223  sudo apt-get install nodejs
+  224  sudo apt-get install npm
+  225  sudo /opt/anaconda/anaconda3/envs/jupyterhubEnv/bin/jupyterhub
+  226  npm install -g configurable-http-proxy
+  227  sudo /opt/anaconda/anaconda3/envs/jupyterhubEnv/bin/jupyterhub
+  228  sudo /opt/anaconda/anaconda3/envs/jupyterhubEnv/bin/npm install -g configurable-http-proxy
+  229  cd /opt/anaconda/anaconda3/envs/jupyterhubEnv/bin/
+  230  npm install -g configurable-http-proxy
+  231  cd
+  232  source deactivate jupyterhubEnv
+  233  jupyterhub
+  234  sudo npm install -g configurable-http-proxy
+  235  cd /srv/jupyterhub/
+  236  jupyterhub
+  237  sudo ln -s "$(which nodejs)" /usr/local/bin/node
+  238  cd /srv/jupyterhub/
+  239  jupyterhub
+  240  source activate jupyterhubEnv
+  241  jupyterhub
+  242  sudo jupyterhub
+  243  sudo ./jupyterhub
+  244  conda upgrade jupyterhub
+  245  jupyterhub
+  246  cut -d: -f1 /etc/passwd
+  247  jupyterhub
+  248  conda create -n py2 python=2 anaconda
+  249  source activate py2
+  250  ipython kernal install
+  251  source deactivate py2
+  252  python2 -m pip install --upgrade ipykernel
+  253  python 3 kernel python2 -m pip
+  254  python3 kernel python2 -m pip
+  255  python3 -m pip install jupyterhub notebook ipykernel
+  256  python3 ipykernel install
+  257  python3 -m ipykernel install
+  258  sudo python3 -m ipykernel install
+  259  source activate jupyterhubEnv
+  260  sudo python3 -m ipykernel install
+  261  conda create -n py2 python=2 ipykernel
+  262  conda run -n py2 -- ipython kernel install
+  263  ls
+  264  jupyterhub
+  265  python3 -m pip install oauthenticator
+  266  jupyterhub
+  267  emacs ./env
+  268  source ./env
+  269  jupyterhub
+  270  emacs jupyterhub_config.py
+  271  jupyterhub
+  272  logout
+  273  ls
+  274  cd /srv/jupyterhub/
+  275  emacs ./env
+  276  sudo emacs ./env
+  277  source ./env
+  278  emacs jupyterhub_config.py
+  279  sudo apt-get update
+  280  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+  281  sudo apt-add-repository 'deb https://apt.dockerproject.org/repo ubuntu-xenial main'
+  282  sudo apt-get update
+  283  apt-cache policy docker-engine
+  284  sudo apt-get install -y docker-engine
+  285  sudo systemctl status docker
+  286  emacs jupyterhub_config.py
+  287  cd /srv/jupyterhub/
+  288  python3 -m pip install dockerspawner netifaces
+  289  which gcc
+  290  sudo aptitude install python3-setuptools
+  291  sudo pip3 install netifaces
+  292  sudo pip install netifaces
+  293  source activate jupyterhubEnv
+  294  sudo pip3 install netifaces
+  295  sudo pip install netifaces
+  296  sudo aptitude install python3-setuptools
+  297  sudo pip2 install netifaces
+  298  sudo apt-get install python-pip python-dev build-essential
+  299  sudo pip install --upgrade pip
+  300  sudo -H pip install --upgrade pip
+  301  sudo pip install --upgrade virtualenv
+  302  sudo - pip install --upgrade virtualenv
+  303  sudo -H pip install --upgrade virtualenv
+  304  python3 -m pip install dockerspawner netifaces
+  305  sudo pip install netifaces
+  306  sudo -H pip install netifaces
+  307  docker pull jupyterhub/singleuser
+  308  sudo docker pull jupyterhub/singleuser
+  309  jupyterhub
+  310  ifconfig
+  311  docker ps -a
+  312  sudo docker ps -a
+  313  jupyterhub
+  314  sudo jupyterhub
+  315  which jupyterhub
+  316  sudo /opt/anaconda/anaconda3/envs/jupyterhubEnv/bin/jupyterhub
+  317  which python
+  318  which pip
+  319  which anaconda
+  320  history
+  321  ipconfig
+  322  ifconfig
+  323  sudo /opt/anaconda/anaconda3/envs/jupyterhubEnv/bin/jupyterhub
+  324  sudo reboot
+  325  cd /srv/jupyterhub/
+  326  emacs jupyterhub_config.py
+  327  history > history.txt

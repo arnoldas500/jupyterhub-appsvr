@@ -1,4 +1,4 @@
-name: jupyterhub-tutorial
+name: jupyterhubEnv
 channels:
   - conda-forge
 dependencies:

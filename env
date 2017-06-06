@@ -1,4 +1,11 @@
 # Create these values: https://github.com/settings/applications/new
-export GITHUB_CLIENT_ID=from_github
-export GITHUB_CLIENT_SECRET=also_from_github
-export OAUTH_CALLBACK_URL=https://[YOURDOMAIN]/hub/oauth_callback
+
+#export GITHUB_CLIENT_ID=e28b956b838b69ebffcf
+#export GITHUB_CLIENT_SECRET=5362c66ccff1766756910fc6c506fba99623458c
+#export OAUTH_CALLBACK_URL=https://appsvr.asrc.cestm.albany.edu/hub/oauth_callback
+
+#920935662481-30782desr309k3oaacniftcsceq07dqg.apps.googleusercontent.com
+
+c.GoogleOAuthenticator.oauth_callback_url = https://appsvr.asrc.cestm.albany.edu/hub/oauth_callback
+c.GoogleOAuthenticator.oauth_client_id = 920935662481-30782desr309k3oaacniftcsceq07dqg.apps.googleusercontent.com
+c.GoogleOAuthenticator.oauth_client_secret = L6--68zTb8djGkNNP2cjJ4bn
